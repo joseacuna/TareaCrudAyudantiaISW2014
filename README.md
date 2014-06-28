@@ -17,7 +17,8 @@ para conectar laravel con su base de datos debe dirigirse a la ruta
 - y colocar dentro de el lo siguiente
 - 'default' => 'pgsql',
 - y configurar dentro del mismo archivo lo siguiente
-- 'pgsql' => array(
+
+ 'pgsql' => array(
 			'driver'   => 'pgsql',
 			'host'     => 'localhost',
 			'database' => '<nombre base de datos>',
@@ -27,16 +28,19 @@ para conectar laravel con su base de datos debe dirigirse a la ruta
 			'prefix'   => '',
 			'schema'   => 'public',
 		),
--y luego guardar los cambios
+
+- y luego guardar los cambios
 
 ## ejecutar el servidor
 
-
-
+$ruta donde guardo el sitio / php artisan serve
+ 
 ##rutas del programa
--trabajan con la tabla bodega
-localhost:8000/bodega/bodegas --muestra el listado de bodegas
-http://localhost:8000/bodega/add --agrega bodegas
--trabajan con la tabla producto
-localhost:8000/producto/productos --muestra el listado de productos
-localhost:8000/producto/add -- agrega productos
+
+
+- trabajan con la tabla bodega
+- localhost:8000/bodega/bodegas --muestra el listado de bodegas
+- http://localhost:8000/bodega/add --agrega bodegas
+- trabajan con la tabla producto
+- localhost:8000/producto/productos --muestra el listado de productos
+- localhost:8000/producto/add -- agrega productos
