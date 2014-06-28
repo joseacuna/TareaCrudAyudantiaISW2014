@@ -3,12 +3,12 @@ TareaCrudAyudantiaISW2014
 
 ## Instalacion del Script en la base de datos en phppgadmin.
 
--ingrese con su usuario y contraseña
--primero crear la base de datos con el nombre que usted quiera
--haga click en la base de datos creada.
--en la parte superios al lado de esquema esta una opcion SQL seleccionela
--copie y peque el contenido del script Ayudantia.sql dentro del campo SQL de phppgadmin
--pulse ejecutar esto deberia crearle la tablas dentro de su base de datos.
+- ingrese con su usuario y contraseña
+- primero crear la base de datos con el nombre que usted quiera
+- haga click en la base de datos creada.
+- en la parte superios al lado de esquema esta una opcion SQL seleccionela
+- copie y peque el contenido del script Ayudantia.sql dentro del campo SQL de phppgadmin
+- pulse ejecutar esto deberia crearle la tablas dentro de su base de datos.
 
 ## dentro de laravel
 
